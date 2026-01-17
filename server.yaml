@@ -24,8 +24,8 @@ description: >
   and sending chat messages - all through a single MCP interface.
 icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png
 source:
-  project: https://github.com/YOUR_USERNAME/google-workspace-mcp
-  commit: COMMIT_HASH_HERE
+  project: https://github.com/PaulJeyasinghph/google-workspace-mcp
+  commit: d76dd4fac3d47ae98007ce44c6d28cd3e1e5e079
 config:
   secrets:
     - name: GOOGLE_CLIENT_SECRET

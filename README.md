@@ -46,13 +46,13 @@ Comprehensive Model Context Protocol (MCP) server providing unified access to al
 
 ```bash
 # Pull the image
-docker pull YOUR_DOCKERHUB_USERNAME/google-workspace-mcp:latest
+docker pull pauljeyasinghph/google-workspace-mcp:latest
 
 # Run the container
 docker run -i --rm \
   -v $(pwd)/credentials:/data/credentials \
   -v $(pwd)/client_secret.json:/data/credentials/client_secret.json:ro \
-  YOUR_DOCKERHUB_USERNAME/google-workspace-mcp:latest
+  pauljeyasinghph/google-workspace-mcp:latest
 ```
 
 ### Configuration in Claude Desktop
@@ -72,7 +72,7 @@ Add to `~/.config/claude/config.json`:
         "/path/to/credentials:/data/credentials",
         "-v",
         "/path/to/client_secret.json:/data/credentials/client_secret.json:ro",
-        "YOUR_DOCKERHUB_USERNAME/google-workspace-mcp:latest"
+        "pauljeyasinghph/google-workspace-mcp:latest"
       ]
     }
   }
@@ -146,7 +146,7 @@ Add to `~/.config/claude/config.json`:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/google-workspace-mcp.git
+git clone https://github.com/PaulJeyasinghph/google-workspace-mcp.git
 cd google-workspace-mcp
 
 # Build the Docker image
@@ -269,8 +269,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/google-workspace-mcp/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/google-workspace-mcp/discussions)
+- **Issues**: [GitHub Issues](https://github.com/PaulJeyasinghph/google-workspace-mcp/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/PaulJeyasinghph/google-workspace-mcp/discussions)
 - **Documentation**: [Google Workspace APIs](https://developers.google.com/workspace)
 
 ## Acknowledgments
